@@ -1,0 +1,2 @@
+### Welcome!
+Hi, I'm Chloe Tibets and I am a Interactive Media and Game Development student at Becker College. I will be graduating in the class of 2020 with a Bachelor's Degree with a concentration in Game Art. This Website is a place where I will upload some of my art pieces, assets, and games throughout the next few years. Feel free to look around!
