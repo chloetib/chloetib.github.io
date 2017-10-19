@@ -62,13 +62,13 @@ ul {
 	height: 100%;
 	position: absolute;
 	background-color: #000;
-	opacity: 0.5;
+	opacity: 0.;
 	z-index: 1;
 	transition: .15s;
 }
 
 .banner:hover > .overlay {
-	opacity: 0.0;
+	opacity: 0.5;
 }
 
 .post {
