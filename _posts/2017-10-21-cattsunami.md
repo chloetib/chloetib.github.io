@@ -9,4 +9,4 @@ screenshots:
  - "/assets/art/6_cattsunami/3.png"
 ---
 
-Cat Tsunami
+Cat Tsunami is an Android and IOS game by MassDiGI. I created a Colosseum Coach themed background for this game.

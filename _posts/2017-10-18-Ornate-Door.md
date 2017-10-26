@@ -10,4 +10,4 @@ screenshots:
 
 ---
 
-Ornate Door
+This Ornate Door is modeled after the door to Anor Londo in Dark Souls. For my 3D modeling Mid-Term we had to design or pick a door to model. This door was modeled in Maya, and rendered in Substance Painter.
