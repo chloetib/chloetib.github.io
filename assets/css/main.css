@@ -126,13 +126,13 @@ nav ul li, footer ul li {
 a,
 a:visited,
 a:focus {
-    color: #a77dc2;
+    color: #eeeeee;
     text-decoration: none;
     transition: .15s;
 }
 
 a:hover {
-    color: #86649b;
+    color: #eeeeee;
 }
 
 a img {
