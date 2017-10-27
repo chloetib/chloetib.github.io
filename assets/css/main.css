@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+eee@import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
 html {
   box-sizing: border-box;
@@ -164,7 +164,7 @@ h2 {
 p {
     font-size: 1em;
     line-height: 1.4em;
-    color: #333;
+    color: #eee;
 }
 
 hr {
