@@ -37,11 +37,11 @@ ul {
 }
 
 .banner {
-	 height: 480px;
-	 display: block;
-	 background-size: cover;
-	 background-position: center;
-	 position: relative;
+    height: 480px;
+    width: 200px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
 }
 .banner .logo {
 	position: absolute;
@@ -58,13 +58,12 @@ ul {
 }
 
 .banner .overlay {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	background-color: #000;
-	opacity: 0.0;
-	z-index: 1;
-	transition: .15s;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.0;
+    z-index: 1;
+    transition: .15s;
 }
 
 .banner:hover > .overlay {
@@ -185,7 +184,10 @@ footer {
 		font-size: 12px;
 		line-height: 1.5;
 	}
-
+  body > ul {
+      white-space: nowrap;
+      overflow-x: scroll;
+  }
 	.info {
 		width: 100%;
 	}
