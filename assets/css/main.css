@@ -121,27 +121,12 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-#scroller-wrapper {
-    height: 200px;
-    width: 100%;
-    background-color:red;
-    position: relative;
-    overflow-x: scroll;
-}
-
 #scroller {
-    position: absolute;
-    height: 100%;
-    white-space: nowrap;
-}
-
-.elem {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    width: auto;
-    display: inline-block;
+position: absolute;
+height: 100%;
+overflow:scroll;
+overflow-y: hidden;
+white-space:nowrap;
 }
 
 a,
