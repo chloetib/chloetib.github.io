@@ -178,16 +178,16 @@ footer {
     border-top: 4px solid #eeeeee;
     font-size: .8em;
 }
-
+body > ul {
+    white-space: nowrap;
+    overflow-x: scroll;
+}
 @media (max-width: 800px) {
 	body {
 		font-size: 12px;
 		line-height: 1.5;
 	}
-  body > ul {
-      white-space: nowrap;
-      overflow-x: scroll;
-  }
+
 	.info {
 		width: 100%;
 	}
