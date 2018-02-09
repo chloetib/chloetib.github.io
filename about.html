@@ -1,0 +1,14 @@
+---
+layout: default
+title: About
+---
+
+<ul>
+    {% for post in site.posts %}
+		<a href="{{ post.url }}" title="{{ post.title }}">
+			<div style="background-image:url({{ post.banner }});" class="banner">
+				<div class="overlay"></div>
+			</div>
+		</a>
+    {% endfor %}
+</ul>
