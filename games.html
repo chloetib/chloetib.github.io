@@ -1,11 +1,11 @@
----
-layout: default
+game---
+layout: games
 title: Games
 ---
 
 <ul>
-    {% for post in site.posts %}
-		<a href="{{ post.url }}" title="{{ post.title }}">
+    {% for game in site.games %}
+		<a href="{{ game.url }}" title="{{ game.title }}">
 			<div style="background-image:url({{ post.banner }});" class="banner">
 				<div class="overlay"></div>
 			</div>

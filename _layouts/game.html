@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<a href="{{ page.url }}" title="{{ page.title }}">
+	<div style="background-image:url({{ page.banner }});" class="banner"></div>
+</a>
+
+<div class="container">
+	<div class="post">
+		<h2>{{ page.title }}</h2>
+		<p class="meta">{{ page.date | date: "%m/%d/%Y" }}</p>
+		<hr>
+		{{ content }}
+	</div>
+
+	<div class="screenshots">
+		{% for screenshots in page.screenshots %}
+			<img style="max-width: 100%;" src = {{ screenshots }}>
+		{% endfor %}
+	</div>
+</div>
