@@ -96,6 +96,11 @@ ul {
     width: 40%;
     overflow: hidden;
 	text-align: right;
+  position: absolute;
+bottom: 0;
+right: 0;
+padding: inherit;
+padding-left: 0;
 }
 
 .content ul {
