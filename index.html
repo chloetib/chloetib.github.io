@@ -3,12 +3,12 @@ layout: default
 title: Home
 ---
 
-<ul>
-    {% for post in site.posts %}
+<div class="art">
+    {% for post in site.categories.art %}
 		<a href="{{ post.url }}" title="{{ post.title }}">
-			<div style="background-image:url({{ post.banner }});" class="banner">
+			<div style="background-image:url({% if post.thumbnail %}{{post.thumbnail}}{% else %}{{ post.banner }}{% endif %});" class="banner">
 				<div class="overlay"></div>
 			</div>
 		</a>
     {% endfor %}
-</ul>
+</div>

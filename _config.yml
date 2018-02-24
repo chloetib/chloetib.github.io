@@ -4,5 +4,9 @@ google_analytics:
 show_downloads: true
 theme: jekyll-theme-midnight
 
+twitter_username: an_example
+artstation_username: an_example
+some_other_username: an_example
+
 gems:
   - jekyll-mentions

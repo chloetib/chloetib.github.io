@@ -1,48 +1,71 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ site.name }} | {{ page.title }}</title>
+<html>
+	<head>
+		<title>{{ page.title }} | {{ site.title }}</title>
 
-			<!-- Mobile -->
-			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-			<meta name="HandheldFriendly" content="true" />
+		<!-- Mobile -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="HandheldFriendly" content="true" />
 
-			<!-- Default meta content -->
-			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-			<meta http-equiv="content-language" content="en_US" />
+		<!-- Default meta content -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="content-language" content="en_US" />
 
-			<!-- Tags -->
-			<meta name="description" content="3D Artist" />
-			<meta name="author" content="Chloe Tibets"/>
-			<meta name="generator" content="Chloe Tibets"/>
+		<!-- Tags -->
+		<meta name="description" content="3D Artist" />
+		<meta name="author" content="Chloe Tibets"/>
+		<meta name="generator" content="Chloe Tibets"/>
 
-			<!-- CSS -->
-			<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
-		</head>
-		<h2>
-			Chloe Tibets
-		</h2>
-		<h2>
-			3D Artist
-		</h2>
-		<div class = "navigation">
-			<ul>
-				<li><a href="/">Art</a></li>
-				<li><a href="/games.html">Games</a></li>
-				<li><a href="/about.html">About</a></li>
-			</ul>
-		</div>
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+	</head>
 	<body>
-
-			{{ content }}
-
-			<div class="container">
-				<footer>
-					<ul>
-						© Chloe Tibets 2017
-					</ul>
-				</footer>
+		<div class="header">
+			<div class="title">
+				<h1>Chloe Tibets</h1>
+				<h2>3D Artist</h2>
 			</div>
-		</body>
-	</html>
+			<div class="navigation">
+				<ul>
+					<li><a href="/">Art</a></li>
+					<li><a href="/games.html">Games</a></li>
+					<li><a href="/about.html">About</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+
+		{{ content }}
+
+		<div class="footer container">
+			<div class="copyright">
+				© Chloe Tibets 2017
+			</div>
+			<div class="social-icons">
+				{% comment %}
+				To add a new social link, add the username to your _config.yml
+				like the other ones were, then add a new block here.
+				Font Awesome icons are used: https://fontawesome.com/icons?d=gallery&s=brands
+				The exception is ArtStation, which isn't included in Font Awesome -
+				so some other guy's icon thing is used.
+				{% endcomment %}
+
+				{% if site.twitter_username %}
+					<a href="https://twitter.com/{{ site.twitter_username }}">
+						<i class="fab fa-twitter"></i>
+					</a>
+				{% endif %}
+
+				{% if site.artstation_username %}
+					<a href="https://artstation.com/{{ site.artstation_username }}">
+						<i class="cg cg-artstation"></i>
+					</a>
+				{% endif %}
+			</div>
+		</div>
+	</body>
+</html>
