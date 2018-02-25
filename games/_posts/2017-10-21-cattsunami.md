@@ -7,7 +7,7 @@ screenshots:
  - "/assets/art/6_cattsunami/1.png"
  - "/assets/art/6_cattsunami/2.png"
  - "/assets/art/6_cattsunami/3.png"
- summary: |
+ summary: 
    by <a href="http://massdigi.org/">MassDiGI</a>
    Artist
    Some other info can go here.
