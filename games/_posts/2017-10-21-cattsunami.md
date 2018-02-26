@@ -10,7 +10,7 @@ screenshots:
 summary: |
   by <a href="http://massdigi.org/">MassDiGI</a>
   Artist
-  Some other info can go here.
+  A mobile game about a cat named Kai surfing on other cats to get to the catnip sale. Launched on iOS and Android in Spring 2017.
 ---
 
 Cat Tsunami is an Android and IOS game by MassDiGI. I created a Colosseum Coach themed background for this game.
