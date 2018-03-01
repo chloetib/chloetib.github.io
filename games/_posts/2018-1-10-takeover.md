@@ -2,7 +2,7 @@
 layout: post
 title: "Takeover Trail"
 date: 2018-01-10
-banner: "/assets/art/13_takeover/banner.png"
+banner: "/assets/art/13_takeover/banner.PNG"
 screenshots:
  - "/assets/art/13_takeover/1.PNG"
  - "/assets/art/13_takeover/2.PNG"
