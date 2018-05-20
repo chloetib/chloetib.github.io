@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cat Tsunami"
-date: 2017-10-15
+date: 2017-10-21
 banner: "/assets/art/6_cattsunami/banner.png"
 screenshots:
  - "/assets/art/6_cattsunami/1.png"
