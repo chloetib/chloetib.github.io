@@ -4,9 +4,9 @@ title: "Cat Tsunami"
 date: 2017-10-21
 banner: "/assets/art/6_cattsunami/banner.png"
 screenshots:
- - "/assets/art/6_cattsunami/1.jpg"
- - "/assets/art/6_cattsunami/2.jpg"
- - "/assets/art/6_cattsunami/3.jpg"
+ - "/assets/art/6_cattsunami/1.PNG"
+ - "/assets/art/6_cattsunami/2.PNG"
+ - "/assets/art/6_cattsunami/3.PNG"
 summary: |
   by <a href="http://massdigi.org/">MassDiGI</a>
   Artist
